@@ -1,72 +1,39 @@
 {
-  "_from": "react-native-barcode-zxing-scan",
-  "_id": "react-native-barcode-zxing-scan@1.0.2",
-  "_inBundle": false,
-  "_integrity": "sha512-IEEP1Jx6xi0iqaKgmZpq8L+t0eIWDLv98Nz7Ya8J7Lya3UYCia80aOh1s4Bko7FL9ylc0IbBIjtZpMMCBg/vzg==",
-  "_location": "/react-native-barcode-zxing-scan",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "tag",
-    "registry": true,
-    "raw": "react-native-barcode-zxing-scan",
-    "name": "react-native-barcode-zxing-scan",
-    "escapedName": "react-native-barcode-zxing-scan",
-    "rawSpec": "",
-    "saveSpec": null,
-    "fetchSpec": "latest"
+  "name": "react-native-zavalabs-scanner",
+  "version": "1.0.0",
+  "description": "this modul is best library for barcode scanning with ZXING improved by ZAVALABS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "_requiredBy": [
-    "#USER",
-    "/"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zzafachreza/react-native-zavalabs-scanner.git",
+      "baseUrl": "https://github.com/zzafachreza/react-native-zavalabs-scanner"
+
+  },
+  "keywords": [
+    "scanner",
+    "barcode",
+    "qrcode",
+    "react-native",
+    "scanner-barcode",
+    "scan",
+    "camera"
   ],
-  "_resolved": "https://registry.npmjs.org/react-native-barcode-zxing-scan/-/react-native-barcode-zxing-scan-1.0.2.tgz",
-  "_shasum": "629316b685ab335701e7f91cc9ec50b1ae66f380",
-  "_spec": "react-native-barcode-zxing-scan",
-  "_where": "C:\\project\\zavascan",
-  "author": {
-    "name": "Deeksha Mehta",
-    "email": "deekshamehta125@gmail.com"
+
+   "author": {
+    "name": "Fachreza Maulana",
+    "email": "zavalabsofficial@gmail.com"
   },
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/deeksha-bit/react-native-barcode-zxing-scan/issues"
+    "url": "https://github.com/zzafachreza/react-native-zavalabs-scanner/issues"
   },
-  "bundleDependencies": false,
-  "deprecated": false,
-  "description": "libary for barcode scanning using zxing",
-  "devDependencies": {
-    "react": "^16.9.0",
-    "react-native": "^0.61.5"
-  },
-  "files": [
+   "files": [
     "README.md",
     "android",
     "index.js"
   ],
-  "homepage": "https://github.com/deeksha-bit/react-native-barcode-zxing-scan#readme",
-  "keywords": [
-    "scan",
-    "barcode",
-    "android",
-    "react-native",
-    "zxing",
-    "barcode-scan"
-  ],
-  "license": "MIT",
-  "licenseFilename": "LICENSE",
-  "main": "index.js",
-  "name": "react-native-barcode-zxing-scan",
-  "peerDependencies": {
-    "react": ">=16.8.1",
-    "react-native": ">=0.60.0-rc.0 <1.0.x"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/deeksha-bit/react-native-barcode-zxing-scan.git",
-    "baseUrl": "https://github.com/deeksha-bit/react-native-barcode-zxing-scan"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "title": "React Native Barcode Zxing Scan",
-  "version": "1.0.2"
+  "homepage": "https://github.com/zzafachreza/react-native-zavalabs-scanner#readme"
 }

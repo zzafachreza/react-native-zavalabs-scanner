@@ -1,6 +1,8 @@
 # react-native-zavalabs-scanner
 
-The zxing module scanning barcodes in android.
+Bismillah,
+
+this modul is best library for barcode scanning with ZXING improved by ZAVALABS
 
 This module abstracts the library zxing-android-embedded, developed by JourneyApps.
 
@@ -20,6 +22,7 @@ This module abstracts the library zxing-android-embedded, developed by JourneyAp
 - DATA MATRIX
 - PDF 417
 
+## Support SDK 31
 
 ## Getting started
 
@@ -29,45 +32,76 @@ This module abstracts the library zxing-android-embedded, developed by JourneyAp
 
 ```$ react-native link react-native-zavalabs-scanner```
 
-## Manual installation 
-
-Android
-Update rn to 0.60.* and use autolink
-
 ## Usage 
 
 #### App.js 
 
 ```
-import React from "react";
-import { Text, View, TouchableOpacity } from "react-native";
-import ZavalabsScanner from "react-native-zavalabs-scanner";
+import React, { useState } from 'react'
+import { StyleSheet, Text, View, TouchableOpacity } from 'react-native'
+import ZavalabsScanner from 'react-native-zavalabs-scanner'
 
-const App = () => {
-  const barcodeScanned = (data) => {
-    console.log("Barcode ", data);
-  };
 
-  const handleClick = () => {
-    ZavalabsScanner.showBarcodeReader(barcodeScanned);
+export default function App() {
+
+  const [barcode, setBarcode] = useState('');
+
+  const openScanner = () => {
+    ZavalabsScanner.showBarcodeReader(result => {
+      console.log('barcode : ', result)
+      setBarcode(result);
+    });
   };
 
   return (
-    <View>
-      <TouchableOpacity
-        onPress={() => handleClick()}
-        style={{
-          margin: 20,
-          backgroundColor: "bluesky",
-          justifyContent: "center",
-          alignItems: "center",
-        }}
-      >
-        <Text style={{ fontSize: 30,color:'white',border-radius:10 }}>SCAN</Text>
+    <View style={styles.container}>
+      <TouchableOpacity onPress={openScanner} style={styles.button}>
+        <Text style={styles.textScan}>SCAN BARCODE</Text>
       </TouchableOpacity>
+      <View style={styles.row}>
+        <Text style={styles.textResult}>Result</Text>
+        <Text style={styles.textDot}>:</Text>
+        <Text style={styles.textBarcode}>{barcode}</Text>
+      </View>
     </View>
-  );
-};
+  )
+}
 
-export default App;
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    padding: 10,
+    justifyContent: 'center',
+  },
+  button: {
+    padding: 15,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#044cc2',
+    borderRadius: 10,
+  },
+  textResult: {
+    flex: 0.3,
+    fontSize: 20,
+    color: 'black'
+  },
+  textDot: {
+    flex: 0.2,
+    fontSize: 20,
+    color: 'black'
+  },
+  textBarcode: {
+    flex: 1,
+    fontSize: 30,
+    color: 'black'
+  },
+  textScan: {
+    fontSize: 20,
+    color: 'white'
+  },
+  row: {
+    padding: 10,
+    flexDirection: 'row'
+  }
+})
 ```
