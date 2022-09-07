@@ -27,7 +27,7 @@ This module abstracts the library zxing-android-embedded, developed by JourneyAp
 
 ## Mostly automatic installation
 
-```$ react-native link react-native-barcode-zxing-scan```
+```$ react-native link react-native-zavalabs-scanner```
 
 ## Manual installation 
 
