@@ -1,0 +1,12 @@
+<!-- AndroidManifest.xml -->
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.reactlibrary">
+    <application>
+
+    <activity
+        android:name=".ContinuousCaptureActivity"
+        android:screenOrientation="sensorPortrait"
+        android:exported="true" />
+    </application>
+</manifest>

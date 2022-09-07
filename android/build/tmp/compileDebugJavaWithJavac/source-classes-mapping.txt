@@ -1,0 +1,8 @@
+com/reactlibrary/ContinuousCaptureActivity.java
+ com.reactlibrary.ContinuousCaptureActivity
+com/reactlibrary/BuildConfig.java
+ com.reactlibrary.BuildConfig
+com/reactlibrary/BarcodeZxingScanModule.java
+ com.reactlibrary.BarcodeZxingScanModule
+com/reactlibrary/BarcodeZxingScanPackage.java
+ com.reactlibrary.BarcodeZxingScanPackage

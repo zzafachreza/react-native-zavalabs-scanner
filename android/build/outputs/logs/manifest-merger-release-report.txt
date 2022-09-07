@@ -1,0 +1,47 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\project\zavascan\node_modules\react-native-barcode-zxing-scan\android\src\main\AndroidManifest.xml:3:1-12:12
+INJECTED from C:\project\zavascan\node_modules\react-native-barcode-zxing-scan\android\src\main\AndroidManifest.xml:3:1-12:12
+INJECTED from C:\project\zavascan\node_modules\react-native-barcode-zxing-scan\android\src\main\AndroidManifest.xml:3:1-12:12
+INJECTED from C:\project\zavascan\node_modules\react-native-barcode-zxing-scan\android\src\main\AndroidManifest.xml:3:1-12:12
+INJECTED from C:\project\zavascan\node_modules\react-native-barcode-zxing-scan\android\src\main\AndroidManifest.xml:3:1-12:12
+INJECTED from C:\project\zavascan\node_modules\react-native-barcode-zxing-scan\android\src\main\AndroidManifest.xml:3:1-12:12
+INJECTED from C:\project\zavascan\node_modules\react-native-barcode-zxing-scan\android\src\main\AndroidManifest.xml:3:1-12:12
+	package
+		ADDED from C:\project\zavascan\node_modules\react-native-barcode-zxing-scan\android\src\main\AndroidManifest.xml:4:11-37
+		INJECTED from C:\project\zavascan\node_modules\react-native-barcode-zxing-scan\android\src\main\AndroidManifest.xml
+		INJECTED from C:\project\zavascan\node_modules\react-native-barcode-zxing-scan\android\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\project\zavascan\node_modules\react-native-barcode-zxing-scan\android\src\main\AndroidManifest.xml
+		ADDED from C:\project\zavascan\node_modules\react-native-barcode-zxing-scan\android\src\main\AndroidManifest.xml:3:1-12:12
+		INJECTED from C:\project\zavascan\node_modules\react-native-barcode-zxing-scan\android\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\project\zavascan\node_modules\react-native-barcode-zxing-scan\android\src\main\AndroidManifest.xml
+		ADDED from C:\project\zavascan\node_modules\react-native-barcode-zxing-scan\android\src\main\AndroidManifest.xml:3:1-12:12
+		INJECTED from C:\project\zavascan\node_modules\react-native-barcode-zxing-scan\android\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\project\zavascan\node_modules\react-native-barcode-zxing-scan\android\src\main\AndroidManifest.xml:3:11-69
+application
+ADDED from C:\project\zavascan\node_modules\react-native-barcode-zxing-scan\android\src\main\AndroidManifest.xml:5:5-11:19
+activity#com.reactlibrary.ContinuousCaptureActivity
+ADDED from C:\project\zavascan\node_modules\react-native-barcode-zxing-scan\android\src\main\AndroidManifest.xml:7:5-10:35
+	android:screenOrientation
+		ADDED from C:\project\zavascan\node_modules\react-native-barcode-zxing-scan\android\src\main\AndroidManifest.xml:9:9-51
+	android:exported
+		ADDED from C:\project\zavascan\node_modules\react-native-barcode-zxing-scan\android\src\main\AndroidManifest.xml:10:9-32
+	android:name
+		ADDED from C:\project\zavascan\node_modules\react-native-barcode-zxing-scan\android\src\main\AndroidManifest.xml:8:9-50
+uses-sdk
+INJECTED from C:\project\zavascan\node_modules\react-native-barcode-zxing-scan\android\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\project\zavascan\node_modules\react-native-barcode-zxing-scan\android\src\main\AndroidManifest.xml
+INJECTED from C:\project\zavascan\node_modules\react-native-barcode-zxing-scan\android\src\main\AndroidManifest.xml
+INJECTED from C:\project\zavascan\node_modules\react-native-barcode-zxing-scan\android\src\main\AndroidManifest.xml
+INJECTED from C:\project\zavascan\node_modules\react-native-barcode-zxing-scan\android\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\project\zavascan\node_modules\react-native-barcode-zxing-scan\android\src\main\AndroidManifest.xml
+		ADDED from C:\project\zavascan\node_modules\react-native-barcode-zxing-scan\android\src\main\AndroidManifest.xml
+		INJECTED from C:\project\zavascan\node_modules\react-native-barcode-zxing-scan\android\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\project\zavascan\node_modules\react-native-barcode-zxing-scan\android\src\main\AndroidManifest.xml
+		ADDED from C:\project\zavascan\node_modules\react-native-barcode-zxing-scan\android\src\main\AndroidManifest.xml
+		INJECTED from C:\project\zavascan\node_modules\react-native-barcode-zxing-scan\android\src\main\AndroidManifest.xml

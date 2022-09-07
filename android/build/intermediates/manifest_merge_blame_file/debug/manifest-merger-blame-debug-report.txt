@@ -1,0 +1,26 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!-- AndroidManifest.xml -->
+3<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+4    package="com.reactlibrary"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="16"
+9-->C:\project\zavascan\node_modules\react-native-barcode-zxing-scan\android\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="22" />
+10-->C:\project\zavascan\node_modules\react-native-barcode-zxing-scan\android\src\main\AndroidManifest.xml
+11
+12    <application>
+12-->C:\project\zavascan\node_modules\react-native-barcode-zxing-scan\android\src\main\AndroidManifest.xml:5:5-11:19
+13        <activity
+13-->C:\project\zavascan\node_modules\react-native-barcode-zxing-scan\android\src\main\AndroidManifest.xml:7:5-10:35
+14            android:name="com.reactlibrary.ContinuousCaptureActivity"
+14-->C:\project\zavascan\node_modules\react-native-barcode-zxing-scan\android\src\main\AndroidManifest.xml:8:9-50
+15            android:exported="true"
+15-->C:\project\zavascan\node_modules\react-native-barcode-zxing-scan\android\src\main\AndroidManifest.xml:10:9-32
+16            android:screenOrientation="sensorPortrait" />
+16-->C:\project\zavascan\node_modules\react-native-barcode-zxing-scan\android\src\main\AndroidManifest.xml:9:9-51
+17    </application>
+18
+19</manifest>
